@@ -8,30 +8,121 @@
 </head>
 <body>
     <header class="navigator-container">
-    <div style="background-image: url(asset/logo.jpg); border: 1px solid black; height: 32px; width: 32px; ;"></div>
+    <div style="background-image: url(asset/logo.jpg); height: 55px; width: 60px; background-size: cover ;"></div>
     <nav>
-        <button>Home</button>
-        <button>Out package</button>
-        <button>Call Us</button>
+        <button type="button" id="button-home" onclick="validation">Home</button>
+        <button type="button" id="button-package" onclick="validation">Out package</button>
+        <button type="button" id="button-call" onclick="validation">Call Us</button>
     </nav>
     </header>
     <hr>
     <judulartikel class="judulartikelclass">
         <header>
-            <h1>Rindi Portoflio</h1>
+            <h1>Rindi Portfolio</h1>
             <h2>Your Happines is Our Hapines</h2>
         </header>
     </judulartikel>
     <section class="cardbackground">
-        <div class="card-item"></div>
+        <div style="width: 2600px;" class="card-item"></div>
         <div class="card-item">
             <header>
-                <h2>Contac Us</h2>
-                <section>
-                    <label>Username :</label><input type="text"/>
+                <h2 style="text-align: center;">Contac Us</h2>
+                <p>Sales akan menelfon anda 1x24 jam
+                   <br>
+                    setelah data di terima
+                    <br><br></p>
+                <section class="username-crad">
+                    <label>Your Name:</label> <br><input type="text" placeholder="First and last name" id="Input name"/> 
+                    <br><br>
+                    <label>Email addres:</label><br><input type="email" placeholder="example@gmail.com">
+                    <br><br>
+                    What are you instered in ?<br><select id="option" name="option" required><br><br>
+                        <option value="" disabled selected>Select an option</option>
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                    </select><br><br>
+                    <button type="submit" class="button">Send</button>
                 </section>
             </header>
         </div>
     </section>
+</article>
+
+<section class="our-package-content">
+    <h1>Our Package</h1>
+</section>
+</article>
+
+<article class="content-third-container">
+<section>
+    
+    <div class="container-feature-2">
+        <div class="box2">
+            <div class="lamp"></div>
+            <h3>Bali</h3>
+            <p>Travel dan wisata di Bali <br>
+            kunjungi cagar budaya dan <br>
+            kuliner yang menarik</p>
+        </div>
+        <div class="box2">
+            <div class="lamp"></div>
+            <h3>Japan</h3>
+            <p>Travel dan wisata di Japan <br>
+                kunjungi cagar budaya dan <br>
+                kuliner yang menarik</p>
+        </div>
+        <div class="box2">
+            <div class="lamp"></div>
+            <h3>Singapore</h3>
+            <p>This description supports <br>
+                and extends the bullet point <br>
+                above</p>
+        </div>
+    </div>
+
+    <div class="container-feature-2">
+        <div class="box2">
+            <div class="star"></div>
+            <h3>Bandung</h3>
+            <p>This description supports <br>
+                and extends the bullet point <br>
+                above</p>
+        </div>
+        <div class="box2">
+            <div class="star"></div>
+            <h3>Surabaya</h3>
+            <p>This description supports <br>
+                and extends the bullet point <br>
+                above</p>
+        </div>
+        <div class="box2">
+            <div class="star"></div>
+            <h3>Third Feature</h3>
+            <p>This description supports <br>
+                and extends the bullet point <br>
+                above</p>
+        </div>
+    </div>
+</section>
+</article>
+
+<section class="your-closing-content">
+<h1>Your Closing Argument Headline</h1>
+<p>Suspendisse egestas rhoncus urna in bibendum. Donec urna neque, euismod sed<br>
+    justo quis, convallis tincidunt risus. Phasellus fringilla odio vel erat fringilla,</p>
+    <br>
+    <input type="submit" id="submit2" value="CALL TO ACTION">
+</section>
+</article>
+<footer class="footer-logo" >
+<div ></div>
+<p> Terms of Service   Privacy Policy.</p>
+<p>&copy;2019  Moqups</p>
+</footer>
+
+
+
+<script src="js/script.js"></script>
 </body>
 </html>
