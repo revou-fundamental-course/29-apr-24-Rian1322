@@ -1,3 +1,4 @@
+
 .navigator-container{
     justify-content: space-between;
     display: flex;
@@ -20,28 +21,34 @@ section>header>h1{
 .cardbackground{
     display: flex;
 }
+
 @media only screen and (max-width:480px) {.cardbackground{
     flex-direction: column;
+    
 }
     
 }
 .text-card-item{
-    background-color: aliceblue;
+    background-color: rgba(66, 252, 122, 0.151);
     border: 0px;
     border-radius: 5px;
+    width: 30%;
     height: 400px;
-    width: 50%;
     border: 1px solid;
     margin: 20px;    
     padding-right: 10px;  
     padding-top: 0px;  
  }
+ @media only screen and (max-width:480px) {.text-card-item{
+    width: 88%;
+ }
+}
 .card-item{
-    background-color: aliceblue;
+    background-color: rgba(66, 252, 122, 0.151) ;
     border: 0px;
     border-radius: 5px;
     height: 400px;
-    width: 50%;
+    width: 70%;
     border: 1px solid;
     margin: 20px;    
     padding-right: 32px;  
@@ -49,24 +56,24 @@ section>header>h1{
  }
  @media only screen and (max-width:480px) {.card-item{
     flex-direction: column;
+    width: 90%;
 }
 }
  .bener-tree{
     padding-left: 10px;
-    margin: 0px;
-    width: 50%;
-    height: 200%;   
+    margin: 10px;
+    width: 90%;
+    height: 200px;   
 }   
-@media only screen and (max-width:480px) {.bener-tree{
+@media only screen and (max-width:480px) {
+    .bener-tree{
     flex-direction: column;
 }
 }
 .bener-item{
     border: 0px;
     border-radius: 5px;
-    height: 400px;
-    width: 100%;
-    border: 1px solid;
+    height: 380px;
     margin: 10px;
     background-size: cover;
     background-position: center;
@@ -115,7 +122,7 @@ section>header>h1{
 }
 .our-package-content{
     align-content: center;
-    background-color: darkgray;
+    background-color: rgba(66, 252, 122, 0.151);
     font-size: 24px;
     font-family: calibri;
     font-weight: bold;
