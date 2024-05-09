@@ -23,18 +23,26 @@
         </header>
     </judulartikel>
     <section class="cardbackground">
-        <div style="width: 2600px;" class="card-item"></div>
-        <div class="card-item">
+        <div style="width: 80%; padding: 0px; margin:20px ;" class="card-item">
+        <form id="item-form">
+            <div class="kolomkiri">
+                <label>User Name:</label> <input type="text" id="input-name-left">
+                <button type="button" id="send-btn">Send From</button>
+            </div>
+            </form>
+        
+    </div>
+        <div class="text-card-item">
             <header>
                 <h2 style="text-align: center;">Contac Us</h2>
-                <p>Sales akan menelfon anda 1x24 jam
+                <p style="padding: 10px;">Sales akan menelfon anda 1x24 jam
                    <br>
                     setelah data di terima
-                    <br><br></p>
-                <section class="username-crad">
-                    <label>Your Name:</label> <br><input type="text" placeholder="First and last name" id="Input name"/> 
+                    <br></p>
+                <form style="padding:10px ;" class="username-crad">
+                    <label>Your Name:</label> <br><input type="text" placeholder="First and last name" id="Input-name" required/> 
                     <br><br>
-                    <label>Email addres:</label><br><input type="email" placeholder="example@gmail.com">
+                    <label>Email addres:</label><br><input type="email" placeholder="example@gmail.com" required>
                     <br><br>
                     What are you instered in ?<br><select id="option" name="option" required><br><br>
                         <option value="" disabled selected>Select an option</option>
@@ -43,11 +51,19 @@
                         <option value="option3">Option 3</option>
                     </select><br><br>
                     <button type="submit" class="button">Send</button>
-                </section>
+                </form>
             </header>
         </div>
     </section>
-</article>
+    <section class="bener-tree">
+        <div class="bener-item" style="background-image: url(asset/gambar1.jpg);"></div>
+        <div class="bener-item" style="background-image: url(asset/gambar2.jpg);"></div>
+        <div class="bener-item" style="background-image: url(asset/gambar3.jpg);"></div>                   
+        <div>
+        <button type="button" class="butoonslide">next image</button>   
+        </div>          
+    </section>
+<article>
 
 <section class="our-package-content">
     <h1>Our Package</h1>
@@ -120,9 +136,6 @@
 <p> Terms of Service   Privacy Policy.</p>
 <p>&copy;2019  Moqups</p>
 </footer>
-
-
-
 <script src="js/script.js"></script>
 </body>
 </html>

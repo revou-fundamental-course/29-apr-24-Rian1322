@@ -20,15 +20,57 @@ section>header>h1{
 .cardbackground{
     display: flex;
 }
+@media only screen and (max-width:480px) {.cardbackground{
+    flex-direction: column;
+}
+    
+}
+.text-card-item{
+    background-color: aliceblue;
+    border: 0px;
+    border-radius: 5px;
+    height: 400px;
+    width: 50%;
+    border: 1px solid;
+    margin: 20px;    
+    padding-right: 10px;  
+    padding-top: 0px;  
+ }
 .card-item{
     background-color: aliceblue;
     border: 0px;
     border-radius: 5px;
     height: 400px;
+    width: 50%;
+    border: 1px solid;
+    margin: 20px;    
+    padding-right: 32px;  
+    padding-bottom: 0px;  
+ }
+ @media only screen and (max-width:480px) {.card-item{
+    flex-direction: column;
+}
+}
+ .bener-tree{
+    padding-left: 10px;
+    margin: 0px;
+    width: 50%;
+    height: 200%;   
+}   
+@media only screen and (max-width:480px) {.bener-tree{
+    flex-direction: column;
+}
+}
+.bener-item{
+    border: 0px;
+    border-radius: 5px;
+    height: 400px;
     width: 100%;
     border: 1px solid;
-    margin: 20px;
-    
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    padding-left: 10px;
 }
 .card-item>header>p{
     padding-left: 90px;
@@ -78,6 +120,7 @@ section>header>h1{
     font-family: calibri;
     font-weight: bold;
     text-align: center;
+    margin-top: 10px;
 }
 .your-closing-content{
     align-content: center;
@@ -102,3 +145,17 @@ section>header>h1{
     font-size: small;
     font-family: calibri;
 }
+.kolomkiri{
+    width: 300px;
+    height: 40px;
+    text-align: left;
+    padding: 10px;
+    padding-right: 32px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+    
+
+    
